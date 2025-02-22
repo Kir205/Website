@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements</title>
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        } 
+        .navbar {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80px; 
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: white;
+            text-align: center;
+            padding: 0 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .navbar a:hover {
+            background-color: #444;
+            color: #fff;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding-top: 100px;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+        body {
+            background: linear-gradient(135deg, #0d0b14, hsl(19, 84%, 43%));
+        }
+        .achievements {
+            background-color: #121212;
+            color: #f0f0f0;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .achievements h2 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #ff5722;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .achievements-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .achievement-card {
+            background-color: #1f1f1f;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .achievement-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
+        }
+
+        .achievement-card h3 {
+            font-size: 1.5rem;
+            color: #ff5722;
+            margin-bottom: 15px;   
+        }
+
+        .achievement-card p {
+            line-height: 1.8;
+            font-size: 1rem;
+            color: #d1d1d1;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="Portfolio.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <section class="achievements">
+        <h2>Achievements</h2>
+        <div class="achievements-container">
+          <div class="achievement-card">
+            <h3>🎖️ Graduated with Honors in SHS</h3>
+            <p>Graduated with honors in JHS and SHS in Davao City National High School.</p>
+          </div>
+          <div class="achievement-card">
+            <h3>💻 Completed Projects</h3>
+            <p>Successfully developed a Wesbite about bakeryshop in our 1st year 2nd sem in STI.</p>
+          </div>
+        </div>
+      </section>
+      
+</body>
+</html>

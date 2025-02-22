@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        } 
+        .navbar {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80px; 
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: white;
+            text-align: center;
+            padding: 0 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .navbar a:hover {
+            background-color: #444;
+            color: #fff;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding-top: 100px;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            
+        }
+        body {
+    background: linear-gradient(135deg, #433f55, #0e7fc0);
+        }
+        .about-me {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about-me h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #00adb5;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #00adb5;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.about-text {
+  max-width: 800px;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.about-text h3 {
+  margin-top: 30px;
+  color: #00adb5;
+}
+
+.about-text ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-text ul li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+blockquote {
+  margin-top: 30px;
+  font-style: italic;
+  color: #eeeeee;
+  border-left: 4px solid #00adb5;
+  padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .about-container {
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .about-text {
+    margin-left: 40px;
+  }
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="Portfolio.html">Home</a>
+        <a href="achievements.html">Achievements</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <section class="about-me">
+        <h2>About Me</h2>
+        <div class="about-container">
+          <img src="pogi.jpg" alt="Profile Picture" class="profile-pic">
+          <div class="about-text">
+            <p>Hi! I'm <strong>Rafael Josh G. Sanchez</strong>, a 2nd-year Computer Science student at <strong>STI Davao</strong>.</p>
+            <p>I’m passionate about software development, and web design, but im still a newbie tho, i want to learn more about programming.</p>
+            
+            <h3>Skills</h3>
+            <ul>
+              <li>💻 Programming Languages: Java, C#, HTML, CSS, Python.(beginner level)</li>
+            </ul>
+      
+            <h3>Fun Facts</h3>
+            <ul>
+              <li>😴 I like <strong>sleeping</strong>.</li>
+              <li>💻 Passionate about programming.</li>
+              <li>🎮 I love video games.</li>
+            </ul>
+      
+            <blockquote>💡 "Try and Try, until you succeed."</blockquote>
+          </div>
+        </div>
+      </section>
+      
+
+
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        } 
+        .navbar {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80px; 
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: white;
+            text-align: center;
+            padding: 0 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .navbar a:hover {
+            background-color: #444;
+            color: #fff;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding-top: 100px;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+        body {
+            background: linear-gradient(135deg, #a7a5b1, #9308b6);
+        }
+        .projects {
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+             padding: 60px 20px;
+            text-align: center;
+        }
+
+        projects h2 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #00adb5;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .projects-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .project-card {
+            background-color: #2a2a2a;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
+        }
+
+        .project-card h3 {
+            font-size: 1.5rem;
+            color: #00adb5;
+            margin-bottom: 15px;
+        }
+
+        .project-card p {
+            line-height: 1.8;
+            font-size: 1rem;
+            color: #d1d1d1;
+            margin-bottom: 20px;
+        }
+
+        .project-card a {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #00adb5;
+            padding: 10px 15px;
+            border-radius: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .project-card a:hover {
+            background-color: #008b9a;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="Portfolio.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="achievements.html">Achievements</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+          <div class="project-card">
+            <h3>BakeryShop</h3>
+            <p>A Windows Forms application that sells bread online, you can order from it and we will deliver it to you.</p>
+            
+          </div>
+      
+          <div class="project-card">
+            <h3>ChatBot</h3>
+            <p>A Chatbot that can answer any question you ask.</p>
+            
+          </div>
+      
+          <div class="project-card">
+            <h3> Student Registration Form</h3>
+            <p>A student information system built with Windows Forms, including dynamic combo boxes for dates and complete form validation.</p>
+            
+          </div>
+        </div>
+      </section>
+      
+
+</body>
+</html>
